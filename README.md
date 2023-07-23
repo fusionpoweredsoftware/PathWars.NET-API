@@ -13,11 +13,19 @@ performance of rats, `PathWars` studies the performance of programs. More precis
 
 `PathWars.NET API` listens for basic query requests to control the state of the game. The `start` query will begin the game. When the game starts, 
 the programmer's virtual `MOUSE` (not the type of mouse next to your keyboard, but mouse as in the tiny rodent) will be randomly placed into a labyrinth 
-of connecting pathways. The `maze navigation` queries will move `MOUSE` in various directions and manners: `moveForward`, `moveBackward`, `turnLeft`, 
-`turnRight`, and `turnAround`. The `forfeit` query will end a game abruptly. For each `start` and `maze navigation` query requested, the API will return 
+of connecting pathways. The `maze navigation` queries will move `MOUSE` in various directions and manners: 
+
+- `moveForward`
+- `moveBackward`
+- `turnLeft`
+- `turnRight`
+- `turnAround`
+
+The `forfeit` query will end a game abruptly. For each `start` and `maze navigation` query requested, the API will return 
 encoded sensory data for `MOUSE`'s vision and smell. Moreover, the API will additionally return the `UUID`  of the game, the `cheese found count`, how 
-many `seconds` the game has been running, the number of `mazes beaten`, and the  number of `mazes in total` that are required to beat the game. The 
-`getOutputFormat` query is available to check the exact output format for the aforementioned data. Finally, the `getScore` query returns `MOUSE`'s 
+many `seconds` the game has been running, the number of `mazes beaten`, and the  number of `mazes in total` that are required to beat the game. 
+
+The `getOutputFormat` query is available to check the exact output format for the aforementioned data. Finally, the `getScore` query returns `MOUSE`'s 
 score for a game identified by its `UUID` and the `getTopScores` query reveals the top 10 scores of all-time. For visual analysis, the `show` query 
 will allow users to observe how a `MOUSE` moved during a completed game.
 
