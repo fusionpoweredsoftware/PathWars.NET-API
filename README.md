@@ -193,4 +193,11 @@ vulgar license `JBK-FFS!`, which also has one clause: `Just Be Kind, For F*** Sa
 affiliated with the `WTFPL` license which fails to take into account the fact that people should at least make some effort to `be kind`. For 
 clarity, stealing someone's code is not kind. That said, feel free to use the code but do not claim it as your own.
 
+## Official Website for PathWars.NET
+
+https://pathwars.net
+
+## An Open-Source Project Created by AI Innovators of Huntsville
+
+https://pathwars.net/aiihsv
 
