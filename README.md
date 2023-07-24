@@ -151,7 +151,7 @@ all of the cheese in every maze. No additional queries are necessary for your `M
 
 ## Handling Smell and Vision Sensory Input
 
-Smell and vision sensory data is represented are each repesented as an integer. Smell is straight-forward: its integer represents the magnitude of
+Smell and vision sensory data are represented as an integer. Smell is straight-forward: its integer represents the magnitude of
 how much cheese `MOUSE` can smell. Vision is slightly more complex: its integer represents two binary sequences that correspond to the left and right
 sides of what `MOUSE` is seeing. The first binary bit is ignored. Here's a visual example of the bit structure as it corresponds to what is being seen 
 for a vision data of `341`:
