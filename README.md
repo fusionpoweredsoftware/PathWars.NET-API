@@ -156,7 +156,7 @@ how much cheese `MOUSE` can smell. Vision is slightly more complex: its integer 
 sides of what `MOUSE` is seeing. The first binary bit is ignored. Here's a visual example of the bit structure as it corresponds to what is being seen 
 for a vision data of `341`:
 
-![101010101 (341 in binary) means 2 exits left and right](https://static.wixstatic.com/media/f41d49_d976a6c0991845e6abd171121301d51b~mv2.png)
+![101010101 (341 in binary) means 2 exits left and right](https://static.wixstatic.com/media/f41d49_f0c8f4a41b4643f784889b3b6935d93d~mv2.png)
 
 First we convert `341` to binary: `(101010101)₂`. Next, the first bit (`1`) is tossed, and the remaining bits `(01010101)₂` are split into two halves: 
 `(0101)₂` for the left and `(0101)₂` for the right. `0` signifies a wall, whereas `1` signifies an entry way.
